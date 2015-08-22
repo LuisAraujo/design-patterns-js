@@ -84,5 +84,8 @@ musicaPreferida.year = "2002";
 
 console.log(musicaPreferida.getInfo()); // "Negro Drama 2002"
 ```
+**Dica**: Agora enganjando nos problemas de performance do JavaScript o método getInfo
+é recriado toda vez que criamos um objeto do tipo `RacionaisMC`
 
 Para mais maneiras de definir classes, olhe este [link](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
+s
