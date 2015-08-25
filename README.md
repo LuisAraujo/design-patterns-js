@@ -2,27 +2,21 @@
 
 ## Sumário
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Introdução]()
 
-##### Padrões de Projetos Criacionais
-1. [Factory Method]()
+1. [Factory Method]() *( Parte 1 - Padrões de Projetos Criacionais )*
 2. [Abstract Factory]()
 3. [Builder]()
 4. [Prototype]()
 5. [Singleton]()
-
-
-##### Padrões de Projetos Estruturais
-6. [Class Adapter]()
+6. [Class Adapter]() *( Parte 2 - Padrões de Projetos Estruturais )*
 7. [Object Adapter]()
 8. [Bridge]()
 9. [Composite]()
 10. [Decorator]()
 11. [Facade]()
-12. [FlyWeight]()
+12. [Flyweight]()
 13. [Proxy]()
-
-##### Padrões de Projetos Comportamentais
+14. [Interpreter]() *( Parte 3 - Padrões de Projetos Comportamentais )*
 
 ## Definição
 
