@@ -84,8 +84,26 @@ musicaPreferida.year = "2002";
 
 console.log(musicaPreferida.getInfo()); // "Negro Drama 2002"
 ```
-**Dica**: Agora enganjando nos problemas de performance do JavaScript o método getInfo
+
+**Boas Práticas**: Agora enganjando nos problemas de performance do JavaScript o método getInfo
 é recriado toda vez que criamos um objeto do tipo `RacionaisMC`
 
+
+Beleza como resolver isso?
+Para quem não sabe o JavaScript é uma linguagem prototype-based. O que isso quer dizer? Quer dizer que ela é baseada em protótipos : `é um estilo de programação orientada a objetos na qual não temos presença de classes. Isto é, a reutilização de comportamento é realizada através de um processo de decorar objetos existentes que servem como protótipos.`
+
+Sendo assim nossa função ficaria melhor dessa forma: 
+
+```javascript
+// A RacionaisMCs "class"
+function RacionaisMCs( music ) {
+   this.music = music;
+   this.year = "2014";
+ };
+ RacionaisMCs.prototype.getInfo = function () {
+   return this.music + " " + this.year;
+ };
+
+```
+
 Para mais maneiras de definir classes, olhe este [link](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
-s
