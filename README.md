@@ -2,6 +2,8 @@
 
 ## Sumário
 
+#### &nbsp;&nbsp;&nbsp;  [Introdução](introduction.md)
+&nbsp;
 
 1. [Factory Method]() *( Parte 1 - Padrões de Projetos Criacionais )*
 2. [Abstract Factory]()
