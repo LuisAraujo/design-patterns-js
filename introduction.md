@@ -89,7 +89,7 @@ Como resolver isso? Com `prototype`!
 
 Para quem não sabe o JavaScript é uma linguagem prototype-based. O que isso quer dizer? Quer dizer que ela é baseada em protótipos : `Cada objeto tem um link interno para um outro objeto chamado prototype. Esse objeto prototype também tem um atributo prototype, e assim por diante até que null seja encontrado como prototype (como em uma implementação de fila em C, por exemplo). null, por definição, não tem prototype, e age como um link final em um encadeamento de protótipos (prototype chain).`
 
-Quando instanciamos um objeto, este já tem uma referência`(__proto__)` para o prototype da função que o construiu  . Ou seja, [só haverá um método na memória](http://javascript.crockford.com/private.html): o definido no prototype da função construtora!
+Quando instanciamos um objeto, este já tem uma referência`(__proto__)` para o prototype da função que o construiu  . Ou seja, [só haverá um método na memória](http://javascript.crockford.com/private.html): o definido no prototype da função construtora! Assim ganhamos em memória e performance.
 
 Sendo assim daqui pra frente vamos adotar o uso do prototype em nossas funções. Continuando nossa Classe ficaria assim:
 
