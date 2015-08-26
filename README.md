@@ -5,12 +5,12 @@
 #### &nbsp;&nbsp;&nbsp;  [Introdução](introduction.md)
 &nbsp;
 
-1. [Factory Method]() *( Parte 1 - Padrões de Projetos Criacionais )*
+1. [Factory Method]() **( Parte 1 - Padrões de Projetos Criacionais )**
 2. [Abstract Factory]()
 3. [Builder]()
 4. [Prototype]()
 5. [Singleton]()
-6. [Class Adapter]() *( Parte 2 - Padrões de Projetos Estruturais )*
+6. [Class Adapter]() **( Parte 2 - Padrões de Projetos Estruturais )**
 7. [Object Adapter]()
 8. [Bridge]()
 9. [Composite]()
@@ -18,5 +18,15 @@
 11. [Facade]()
 12. [Flyweight]()
 13. [Proxy]()
-14. [Interpreter]() *( Parte 3 - Padrões de Projetos Comportamentais )*
+14. [Interpreter]() **( Parte 3 - Padrões de Projetos Comportamentais )**
+15. [Template Method]()
+16. [Chain of Responsability]()
+17. [Command]()
+18. [Iterator]()
+19. [Mediator]()
+20. [Memento]()
+21. [Observer]()
+22. [State]()
+23. [Strategy]()
+24. [Visitor]()
 
