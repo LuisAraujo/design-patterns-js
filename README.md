@@ -5,7 +5,7 @@
 #### &nbsp;&nbsp;&nbsp;  [Introdução](introduction.md)
 &nbsp;
 
-1. [Constructor Pattern]()
+1. [Constructor Pattern](constructor-pattern.md)
 2. [Module Pattern]()
 3. [Revealing Module Pattern]()
 4. [Singleton Pattern]()
