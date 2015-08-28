@@ -40,6 +40,8 @@ Alguns exemplos de anti-patterns em JavaScript são:
 
 Os padrões de projeto são dividos em dois parâmetros: `propósito (criacional, estrutural, compotamental) e escopo  (classes e objetos)`
 
+Essa é uma imagem com os padrões de projetos clássicos, nós abordaremos alguns deles e alguns padrões modernos.
+
 ![categorias design patters](http://www.devmedia.com.br/imagens/articles/226729/Classificacao%20gof.jpg)
 
 #### Propósito
@@ -103,3 +105,5 @@ function RacionaisMCs( music ) {
 ```
 
 Para mais maneiras de definir classes, olhe este [link](http://www.phpied.com/3-ways-to-define-a-javascript-class/)
+
+Agora vamos explorar vários padrões em JavaScript, alguns deles clássicos e também modernos: [Aqui](README.md)
